@@ -10,7 +10,7 @@
   }
   
   .cabecalho-imagem{
-    width: 11%;
+    width: 7%;
     display: flex;
     align-items: center;
   }   
@@ -18,7 +18,7 @@
     display: flex;
     width: 100%;
     height: 90px;
-    background: #e7aa71;
+    background: #09035e;
   }
   
   header .container-header {
@@ -39,7 +39,7 @@
   
   header .container-header nav li a {
     font-weight: 400;
-    color: #050303;
+    color: #ebbc65;
     text-decoration: none;
     margin-left: 15px;
     padding: 0.8rem;
@@ -89,12 +89,13 @@
     outline: 0;
   }
   
-  header .container-header .mobile-menu {
+  header.mobile-menu {
     display: none;
   }
   
   header .container-header .mobile-menu img {
-    width: 30px;
+  text-align: center;
+  width: 30px;
     height: 30px;
     cursor: pointer;
   }
@@ -119,7 +120,8 @@
 }
 
 .principal{
-	background: #CCCCCC;
+  background-image: linear-gradient(rgb(20, 62, 87),rgb(20, 110, 138));
+	background: #96a0b4;
 	padding: 30px;
 }
 
@@ -128,7 +130,9 @@
 }
 
 .titulo-centralizado {
-	text-align: center
+	text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
 }
 
 p {
@@ -144,27 +148,82 @@ em strong {
 }
 
 .itens {
-	font-style: italic
+	font-style: italic;
+  text-align: left;
+  font-size: x-large;
 }
-
 .beneficios {
-	background: #FFFFFF;
+	background: #d7ecfc;
 	padding: 20px;
+  text-align: center;
+  display: flex;
+  padding-left: 30px;
 }
 
 ul {
 	display: flex;
+  display: inline-block;
 	vertical-align: top;
 	width: 20%;
 	margin-right: 15%;
+
 }
 
 .imagembeneficios {
-	width: 50%;
+	width: 120%;
+  margin: 20px;
+  padding-right: -30px;
+  margin: auto;
+ 
+
 }
 .rodape{
-    background-color: #f3bc75b2;
-    color: #351b03;
+    background-color: #09035e;
+    color: #ebbc65;
     text-align:center;
     padding: 50px 0;
 }
+
+li{
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-top: 50px;
+}
+
+.noivo{
+  background-color: #c9b7b7;
+  padding-left: 40px;
+  margin-left: 20px;
+}
+.titulo-centralizado3{
+  font-size: 30px;
+  color: #331904;
+
+}
+.titulo-centralizado4{
+  padding: 20px;
+  padding-bottom: 17px;
+  font-size: 17px;
+}
+
+
+
+
+.tabela1{
+color: #ebbc65;
+  background-color: #09035e;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+
+
+
+
+table.tftable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
+table.tftable th {font-size:12px;background-color:#acc8cc;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
+table.tftable tr {background-color:#d4e3e5;}
+table.tftable td {font-size:20px;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;}
