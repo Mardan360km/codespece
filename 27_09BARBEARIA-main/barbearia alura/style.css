@@ -47,7 +47,7 @@
 
   header .container-header nav li a.active:hover {
 
-    color: #d45806;
+    color: #ffaf03;
             background-color: #fff; 
             transition: 0.5s;
             opacity: 0.5;
@@ -153,7 +153,7 @@ em strong {
   font-size: x-large;
 }
 .beneficios {
-	background: #d7ecfc;
+	background: #96a0b4;
 	padding: 20px;
   text-align: center;
   display: flex;
@@ -170,9 +170,9 @@ ul {
 }
 
 .imagembeneficios {
-	width: 120%;
-  margin: 20px;
-  padding-right: -30px;
+	width: 40%;
+  margin: 40px;
+  
   margin: auto;
  
 
@@ -193,9 +193,9 @@ li{
 }
 
 .noivo{
-  background-color: #c9b7b7;
+  background-color: #a4b7b9;
   padding-left: 40px;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 .titulo-centralizado3{
   font-size: 30px;
@@ -215,7 +215,7 @@ li{
 color: #ebbc65;
   background-color: #09035e;
   text-align: center;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 
@@ -223,7 +223,14 @@ color: #ebbc65;
 
 
 
-table.tftable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
-table.tftable th {font-size:12px;background-color:#acc8cc;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
+table.tftable {font-size:24px;color:#333333;width:110%;border-width: 3px;border-color: #729ea5;border-collapse: collapse;}
+table.tftable th {font-size:32px;background-color:#acc8cc;border-width: 6px;padding: 6px;border-style: solid;border-color: #729ea5;text-align:left;}
 table.tftable tr {background-color:#d4e3e5;}
-table.tftable td {font-size:20px;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;}
+table.tftable td {font-size:30px;border-width: 2px;padding: 10px;border-style: solid;border-color: #729ea5;}
+
+
+
+
+.titulo-centralizadosdf{
+  font-size: 28px;
+}
